@@ -14,4 +14,6 @@ This is a WhatsApp Bot made using twilio. GPT- 3.5 is used for answering the que
 
 From the above images it is very clear that the bot is having a memory element.
 
-Using Twilio and NGROK we can implement the chatbot
+Using Flask,Twilio and NGROK we can implement the chatbot.
+## Working
+Twilio will receive queries from the chat and it will sent it to the local flask application through NGROK. Using OPEN-AI API the response for the query will be generated and sent back to the user
