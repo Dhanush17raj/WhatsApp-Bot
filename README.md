@@ -16,4 +16,4 @@ From the above images it is very clear that the bot is having a memory element.
 
 Using Flask,Twilio and NGROK we can implement the chatbot.
 ## Working
-Twilio will receive queries from the chat and it will sent it to the local flask application through NGROK. Using OPEN-AI API the response for the query will be generated and sent back to the user
+Twilio will receive queries from the chat and it will sent it to the local flask application through NGROK. Using OPEN-AI's API the response for the query will be generated and sent back to the user
